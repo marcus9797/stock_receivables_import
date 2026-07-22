@@ -15,7 +15,7 @@ Country of Origin: ItemClass
 Fruit: ItemType
 Brand: ItemBrand
 Size: UDF_UOM_Size
-Packing (e.g. 16x800G): UDF_Originally_Prepacked
+Packing (e.g. 16x800G): UDF_OriginallyPrepacked
 Grade: UDF_Grade
 Carton Weight (e.g. 17kg): UDF_UOM_WeightPerCtn
 
@@ -65,3 +65,4 @@ Carton Weight (e.g. 17kg): UDF_UOM_WeightPerCtn
 -   Output the final template into another xlsx file with the format file name: import_stock_receive_<todays_date>_<time>.xlsx
 Format the output xlsx like this: import_stock_receive_Jul19_230pm.xlsx, for e.g.
 -   In any files ending with **_stock_list.xlsx**, if you come across any unknown fields in the description (e.g. unknown ItemBrand) that can't be broken down into fields inside **imported_item_codes.xlsx**, flag it.
+-   If at any point, you do decide to edit **imported_item_codes.xlsx** directly (or produce an xlsx similar in table structure), ensure that you keep the format consistent (i.e. table highlights, column widths, table filters)

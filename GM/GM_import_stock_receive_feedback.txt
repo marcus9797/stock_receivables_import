@@ -1,0 +1,47 @@
+within sheet Ambigious_Matches...
+APL-PNKLDY-SA-0011 for SA PINK LADY APPLE 18KG 135
+
+All of the following:
+    NZ ENVY HG APPLE 10KG
+    NZ ENVY HG APPLE 10KG
+    NZ ENVY HG APPLE 10KG
+    NZ ENVY SG APPLE 18KG 90
+    NZ ENVY SG APPLE 18KG 90
+    NZ ENVY SG APPLE 18KG 90
+    NZ ENVY HG APPLE 18KG 90
+    NZ ENVY HG APPLE 18KG 90
+    NZ ENVY SG APPLE 18KG 90
+    NZ ENVY SG APPLE 18KG 90
+    NZ ENVY SG APPLE 18KG 90
+    NZ ENVY SG APPLE 10KG 50 (30PCS)
+    NZ ENVY SG APPLE 10KG 50 (30PCS)
+    NZ ENVY SG APPLE 18KG 90
+    NZ ENVY SG APPLE 18KG 90
+    NZ ENVY SG APPLE 18KG 90
+    NZ ENVY HG APPLE 18KG 90
+    NZ ENVY HG APPLE 18KG 90
+    NZ ENVY SG APPLE 10KG 50
+    NZ ENVY SG APPLE 10KG 50
+    NZ ENVY HG APPLE 18KG 90
+    NZ ENVY HG APPLE 18KG 90
+    NZ ENVY SG APPLE 18KG 90
+    NZ ENVY SG APPLE 18KG 90
+    NZ ENVY SG APPLE 18KG 90
+    NZ ENVY SG APPLE 10KG 50
+    NZ ENVY SG APPLE 10KG 50
+    NZ ENVY HG APPLE 18KG 90
+    NZ ENVY HG APPLE 18KG 90
+    NZ ENVY SG APPLE 18KG 90
+    NZ ENVY SG APPLE 18KG 90
+    NZ ENVY SG APPLE 18KG 90
+
+already have the correct associated item codes in Ambiguous_Matches. add them to the main sheet and remove from Ambiguous_Matches.
+
+APL-GS-SA-0133 is already in imported_item_codes.xlsx for SA GRANNY SMITH APPLE 18KG 100.
+
+APL-RCKIT-NZ-0007 is for NZ ROCKIT APPLE SMALL FAMILY PACK (3.84KG) 6 TUBE 52-61MM (8s), don't make me repeat myself.
+APL-RCKIT-NZ-0006 for NZ ROCKIT (HG) APPLE 8.8KG 15 TUBE 67MM (5pcs).
+
+I created APL-PACFROSE-NZ-0007 in imported_item_codes.xlsx for NZ PACIFIC ROSE AG APPLE 17.5KG 150.
+
+# add the above correct item codes to the main sheet, and then regenerate the Ambiguous_Matches sheet accordingly. 
