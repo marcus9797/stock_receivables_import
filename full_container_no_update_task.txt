@@ -1,0 +1,12 @@
+Task: update the container no (location) of every item in GM/import_stock_receive_Jul23_1015am.xlsx
+How? Get the full container no accordingly in ETA_containers.xlsx.
+Within ETA_containers.xlsx, each sheet corresponds to ETA months this year.
+Within each sheet, there are columns ETA, CONTAINER and PORT PENANG/PORT KLANG. The CONTAINER column shows the full container no that corresponds to each item in import_stock_receive_Jul23_1015am.xlsx, Sheet1. Ignore sheet Ambiguous_Matches.
+How to find corresponding container no? 2 tell-tale clues.
+a)	The last digits of existing container no in GM/import_stock_receive_Jul23_1015am.xlsx should match in ETA_containers.xlsx
+b)	The item description under xDetailDescription in GM/import_stock_receive_Jul23_1015am.xlsx should be similar to the description under under PORT PENANG/PORT KLANG in ETA_containers.xlsx. They don’t need to be an exact match. But the country, fruit type and fruit variety should at least be the same.
+
+Only when criteria a) AND b) are fulfilled can we confidently know which full container no to assign to.
+Finally, update the container no by keeping the prefix GM- intact. And then appending the full container no to it. E.g. if TEMU 925 0900 is the full container no in ETA_containers.xlsx, then the respective item should be GM- TEMU9250900. Notice how I removed the white spaces.
+Output the result into a new xlsx.
+
