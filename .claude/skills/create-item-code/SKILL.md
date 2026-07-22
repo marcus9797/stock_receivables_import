@@ -20,7 +20,7 @@ E.g. Parse the description for the following Autocount fields:
    - UDF_Grade → Grade
    - UDF_UOM_Size → Fruit size (ROW, MM, etc.)
    - UDF_UOM_WeightPerCtn → Carton weight (kg)
-   - UDF_Originally_Prepacked -> Packing (e.g. "16x800G", "12x1KG", leave blank if not specified)
+   - UDF_OriginallyPrepacked -> Packing (e.g. "16x800G", "12x1KG", leave blank if not specified)
 
    E.g.
    If description = AUST SKIST WASHINGTON NAVEL ORANGE 18KG 88,
@@ -43,3 +43,4 @@ These include, but are not limited to:
 - To add an item code, you first find the new item's ItemType, ItemCategory and ItemClass. That will give you the first 3 short code combinations e.g. APL-GLA-TUR-xxxx. xxxx is the numbering. For a combination, make sure to increment by +1 from the highest number. E.g. to add APL-GLA-TUR-0099 if highest number at the end for this combination was APL-GLA-TUR-0098.
 3. output the new item rows to be added to **./to_add_item_codes.xlsx**.
 4. if there are any new brands not already in **./brands.yaml**, add them into the yaml file.
+5. if there are any varieties not already in **./imported_item_codes.xlsx**, then must come up with an intuitive short code, not more than 8 characters long, and add to **./item_code_hashmap.json** accordingly.
